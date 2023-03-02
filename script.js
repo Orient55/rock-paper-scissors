@@ -29,13 +29,13 @@ function playGame(computerChoice, playerChoice){
         console.log("Player wins! Scissor beats Paper");
     }
     if (computerChoice == 3 && playerChoice == "rock"){
-        console.log("Player wins! Rock beats scissor");
+        console.log("Player wins! Rock beats Scissor");
     }
     if (computerChoice == 3 && playerChoice == "paper"){
-        console.log("Computer wins! Scissor beats paper");
+        console.log("Computer wins! Scissor beats Paper");
     }
     if (computerChoice == 3 && playerChoice == "scissor"){
-        console.log("Draw! Scissor vs scissor")
+        console.log("Draw! Scissor vs Scissor")
     }
 
 }
